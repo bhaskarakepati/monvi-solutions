@@ -1,11 +1,23 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import { Header } from "./components/Header";
+import { Home } from "./components/Home";
+import { WhoWeAre } from "./components/WhoWeAre";
+import { Services } from "./components/Services";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Started Implementing Site..</h1>
-    </div>
+    <Router>
+      <Header />
+      <Container>
+        <Route path="/home" component={Home} />
+        <Route path="/whoweare" component={WhoWeAre} />
+        <Route path="/services" component={Services} />
+      </Container>
+    </Router>
   );
-}
+};
 
 export default App;
