@@ -4,7 +4,7 @@ import { Nav, Navbar } from "react-bootstrap";
 export const Header = () => {
   return (
     <>
-      <Navbar expand="sm" bg="dark" variant="dark">
+      <Navbar expand="sm" bg="light" variant="light">
         <Navbar.Brand href="/">Monvi Solutions</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
