@@ -8,47 +8,57 @@ export const WhoWeAre = () => {
         <Container>
           <Row>
             <Col>
-              <h3 classname="text-center ml-20">Who we are</h3>
+              <h3 className="text-center my-4">What we offer</h3>
             </Col>
           </Row>
           <Row className="col-sm-12 mt-50 text-center">
             <Col>
-              <Card style={{ width: "18rem" }}>
-                <Card.Body className="bg-secondary">
-                  <Card.Title className="text-info">
-                    Functional testing
-                  </Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
             </Col>
             <Col>
-              <Card style={{ width: "18rem" }}>
-                <Card.Body className="bg-info">
-                  <Card.Title>Performance testing</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Read more</Button>
-                </Card.Body>
-              </Card>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
             </Col>
             <Col>
-              <Card style={{ width: "18rem" }}>
-                <Card.Body className="bg-warning">
-                  <Card.Title>Security testing</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-              </Card>
+              <h5>
+                We work on Quality as our main goal to deliver the product
+              </h5>
             </Col>
           </Row>
         </Container>

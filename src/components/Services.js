@@ -10,17 +10,17 @@ import {
 export const Services = () => {
   return (
     <>
-      <section id="services">
+      <section id="services" className="bg-light">
         <Container>
           <Row>
             <Col>
-              <h3 classname="text-center ml-20">Services</h3>
+              <h3 className="text-center my-4">Services</h3>
             </Col>
           </Row>
           <Row className="col-sm-12 col-xs-12 text-center">
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-3">
+            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
               <Card>
-                <Card.Body className="bg-light">
+                <Card.Body className="bg-secondary">
                   <div className="service-icon">
                     <FontAwesomeIcon
                       className="service-icon-image"
@@ -28,7 +28,7 @@ export const Services = () => {
                       size="3x"
                     />
                   </div>
-                  <Card.Title className="text-info">
+                  <Card.Title className="text-light">
                     Functional testing
                   </Card.Title>
                   <Card.Text>
@@ -39,7 +39,7 @@ export const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-3">
+            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
               <Card>
                 <Card.Body className="bg-info">
                   <div className="service-icon">
@@ -60,7 +60,7 @@ export const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-3">
+            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
               <Card>
                 <Card.Body className="bg-warning">
                   <div className="service-icon">
