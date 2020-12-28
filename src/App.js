@@ -5,6 +5,8 @@ import { Home } from "./components/Home";
 import { WhoWeAre } from "./components/WhoWeAre";
 import { Footer } from "./components/Footer";
 import { Services } from "./components/Services";
+import { Contact } from "./components/Contact";
+import { Values } from "./components/Values";
 
 const App = () => {
   return (
@@ -13,7 +15,8 @@ const App = () => {
       <Home />
       <Services />
       <WhoWeAre />
-      <br />
+      <Values />
+      <Contact />
       <Footer />
     </>
   );

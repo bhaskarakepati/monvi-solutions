@@ -68,3 +68,13 @@ body {
 .service-header {
   text-align: center;
 }
+.img-ecommerce {
+  max-width: 100% !important;
+}
+.img-values {
+  max-width: 30% !important;
+}
+
+.img-agile {
+  max-width: 80% !important;
+}

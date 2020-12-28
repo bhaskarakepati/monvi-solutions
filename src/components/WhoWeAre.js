@@ -12,53 +12,21 @@ export const WhoWeAre = () => {
             </Col>
           </Row>
           <Row className="col-sm-12 mt-50 text-center">
-            <Col>
+            <Col className="text-center align-center">
+              <img src="./images/agile.jpg" className="img-agile" alt="Agile" />
               <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-              <h5>
-                We work on Quality as our main goal to deliver the product
+                We offer agile developement to make sure we meet the client
+                requirements and deliver the quality product released to market
               </h5>
             </Col>
             <Col>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
-            </Col>
-            <Col>
-              <h5>
-                We work on Quality as our main goal to deliver the product
-              </h5>
+              <img
+                src="./images/ecommerce.jpg"
+                className="img-ecommerce"
+                size="1x"
+                alt="Agile"
+              />
+              <h5>We offer End to End E-commerce developement</h5>
             </Col>
           </Row>
         </Container>
