@@ -11,15 +11,15 @@ export const WhoWeAre = () => {
               <h3 className="text-center my-4">What we offer</h3>
             </Col>
           </Row>
-          <Row className="col-sm-12 mt-50 text-center">
-            <Col className="text-center align-center">
+          <Row className="mt-50 text-center">
+            <Col sm={12} md={6} className="text-center align-center">
               <img src="./images/agile.jpg" className="img-agile" alt="Agile" />
               <h5>
                 We offer agile developement to make sure we meet the client
                 requirements and deliver the quality product released to market
               </h5>
             </Col>
-            <Col>
+            <Col sm={12} md={6}>
               <img
                 src="./images/ecommerce.jpg"
                 className="img-ecommerce"

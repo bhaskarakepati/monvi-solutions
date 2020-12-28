@@ -12,11 +12,11 @@ export const Contact = () => {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col sm>
               <h3>Address</h3>
               <p> 3 North Cheam, London, KT4 8RD</p>
             </Col>
-            <Col>
+            <Col sm>
               <Form>
                 <Form.Group controlId="formGroupName">
                   <Form.Label>Full Name</Form.Label>

@@ -11,8 +11,8 @@ export const Values = () => {
               <h4>Our Values</h4>
             </Col>
           </Row>
-          <Row className="col-sm-12 mt-50 text-center">
-            <Col className="text-center align-center">
+          <Row className="col-sm-12 text-center">
+            <Col sm>
               <img
                 src="./images/values.jpg"
                 className="img-values"

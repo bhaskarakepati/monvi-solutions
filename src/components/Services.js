@@ -17,8 +17,8 @@ export const Services = () => {
               <h3 className="text-center my-4">Services</h3>
             </Col>
           </Row>
-          <Row className="col-sm-12 col-xs-12 text-center">
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
+          <Row className="text-center">
+            <Col xs={12} sm={6} md={4} className="mb-5">
               <Card>
                 <Card.Body className="bg-secondary">
                   <div className="service-icon">
@@ -39,7 +39,7 @@ export const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
+            <Col xs={12} sm={6} md={4} className="mb-5">
               <Card>
                 <Card.Body className="bg-info">
                   <div className="service-icon">
@@ -60,7 +60,7 @@ export const Services = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-md-6 col-sm-12 col-xs-12 col-lg-4 mb-5">
+            <Col xs={12} sm={6} md={4} className="mb-5">
               <Card>
                 <Card.Body className="bg-warning">
                   <div className="service-icon">
@@ -70,7 +70,7 @@ export const Services = () => {
                       size="3x"
                     />
                   </div>
-                  <Card.Title className="text-info">
+                  <Card.Title className="text-light">
                     Security testing
                   </Card.Title>
                   <Card.Text>
